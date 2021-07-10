@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ededed;
+}
+
+.buttonContainer {
+    margin: 40px;
+}
+
+.simulation {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.graphContainer {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around; 
+}
