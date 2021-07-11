@@ -54,7 +54,6 @@ def get_data():
 def export_to_pdf():
     pdf_file = os.path.join(os.path.join(os.getcwd(), "temp_img/plot.pdf"))
     abs_pdf_file = os.path.abspath(pdf_file)
-    print(abs_pdf_file)
     return send_file(abs_pdf_file, mimetype='application/pdf', as_attachment=True)
 
 
